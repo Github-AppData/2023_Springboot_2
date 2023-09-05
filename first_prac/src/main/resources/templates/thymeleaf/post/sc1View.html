@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<table cellspacing="0" border="1">
+		<tr>
+			<td>username</td> 
+			<td><input type="text" th:value="${userDTO.getUserName}"></td>
+		</tr>
+		
+		<tr>
+			<td>userId</td> 
+			<td><input type="text" th:value="${userDTO.getUserId}"></td>	
+		</tr>
+		
+		<tr>
+			<td>userPwd</td> 
+			<td> <input type="password" th:value="${userDTO.getUserPwd}"></td>
+		</tr>
+		
+		<tr> 
+			<td>userHobby</td> 
+			<td> <input type="text" th:value="${userDTO.getUserHobby}"> </td>
+		</tr>
+		
+		
+	</table>
+
+</body>
+</html>
