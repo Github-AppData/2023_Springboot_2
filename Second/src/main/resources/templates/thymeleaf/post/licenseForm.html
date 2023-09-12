@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<!-- /licenseView -->
+	<form th:action="@{/licenseView}" method="POST" target="_blank">
+		<label for="licenseAgency"> licenseAgency : </label>
+		<input type="text" id="licenseAgency" name="licenseAgency">
+		<br>
+			
+		<label for="licenseType"> licenseType : </label>
+		<input type="text" id="licenseType" name="licenseType">		<br>
+			
+		<label for="licenseMethod"> licenseMethod : </label>
+		<input type="text" id="licenseMethod" name="licenseMethod">		<br>
+		
+		<input type="submit" value="submit">
+	</form>
+</body>
+</html>

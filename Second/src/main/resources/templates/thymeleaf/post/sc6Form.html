@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1>Board Table</h1>
+	<table cellspacing="0" border="1">
+		<thead>
+			<tr>
+				<td> Number </td> <td> Title </td> <td> name </td>
+			</tr>
+		</thead>
+		<tbody>
+			<tr th:object="${boardDTO}">
+				<td th:text="*{num}"></td>
+				<td th:text="*{title}"></td>
+				<td th:text="*{name}"></td>
+			</tr>
+		</tbody>
+		
+	</table>
+
+</body>
+</html>

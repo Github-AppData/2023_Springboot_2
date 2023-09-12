@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h1 th:text="${heading}"></h1>
+	<h3 th:text="'Name : '+ ${bookDTO.getTitle()}"></h3>
+	<h3 th:text="'Id : '+ ${bookDTO.getAuthor()}"></h3>
+	<h3 th:text="'Publisher : '+ ${bookDTO.getPublisher()}"></h3>
+	<h3 th:text="'Date : '+ ${bookDTO.getDate()}"></h3>
+</body>
+</html>

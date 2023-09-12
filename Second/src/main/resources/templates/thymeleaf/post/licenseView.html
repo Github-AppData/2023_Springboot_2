@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html xmlns:th="https://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<table cellspacing="0" border="1"> 
+		<tr>
+			<td>licenseAgency</td>
+			<td> <input type="text" th:value="${licenseDTO.getLicenseAgency()}"> </td>
+		</tr>
+		
+		<tr>
+			<td>licenseType</td>
+			<td> <input type="text" th:value="${licenseDTO.getLicenseType()}"> </td>
+		</tr>
+		
+		<tr>
+			<td>licenseMethod</td>
+			<td> <input type="text" th:value="${licenseDTO.getLicenseMethod()}"> </td>
+		</tr>
+		
+	</table>
+
+</body>
+</html>

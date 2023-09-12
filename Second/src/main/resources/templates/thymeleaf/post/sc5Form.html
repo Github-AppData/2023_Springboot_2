@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<form th:action="@{/sc5View}" method="post" target="_blank">
+		<label for="Title"> Title : </label>
+		<input type="text" id="Title" name="Title">
+		<br>
+			
+		<label for="Author"> Author : </label>
+		<input type="text" id="Author" name="Author">		<br>
+			
+		<label for="Publisher"> Publisher : </label>
+		<input type="text" id="Publisher" name="Publisher">		<br>
+		
+		<label for="Date"> Date : </label>
+		<input type="text" id="Date" name="Date">		<br>
+		
+		<input type="submit" value="submit">
+		<input type="reset" value="reset">
+	</form>
+</body>
+</html>
